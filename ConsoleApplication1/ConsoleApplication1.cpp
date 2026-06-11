@@ -12,13 +12,14 @@ int main()
 
 	cout << "Hello, World!" << endl;
 
-	cin.ignore(); // Очищаем буфер от лишних символов
+	cin.ignore();
 
-	cout << "Нажмите Enter для выхода...";
+	cout << endl;
 
-	cin.get(); // Ждем нажатия клавиши Enter
+	cout << "Нажмите Enter для продолжения..." << endl;
 
-	return 0;
+	cin.get();
+
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"

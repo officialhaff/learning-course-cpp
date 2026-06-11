@@ -368,3 +368,6 @@ ConsoleApplication1/ConsoleApplication1.vcxproj.filters
 ConsoleApplication1/ConsoleApplication1.vcxproj
 ConsoleApplication1.slnx
 ConsoleApplication1/ConsoleApplication1.exe
+InputData(homework)/InputData(homework).vcxproj
+InputData(homework)/InputData(homework).vcxproj.filters
+TaskNumber(homework)/TaskNumber(homework).exe
