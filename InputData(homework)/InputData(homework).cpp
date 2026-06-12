@@ -95,7 +95,7 @@ int main()
 
 		cin >> x;
 
-		double even_number = (x / 2) and (x % 2 == 0);
+		double even_number = (x / 2) && (x % 2 == 0);
 
 		if (even_number == true)
 		{
@@ -275,7 +275,7 @@ int main()
 			cout << "Число: " << x << " не делится на 5" << endl;
 		}
 
-		int divided_several = (x % 3 == 0) and (x % 5 == 0);
+		int divided_several = (x % 3 == 0) && (x % 5 == 0);
 
 		if (divided_several == true)
 		{
