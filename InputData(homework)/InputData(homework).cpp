@@ -197,15 +197,15 @@ int main()
 
 		cin >> z;
 
-		if (x > y && x > z)
+		if (x >= y && x >= z)
 		{
 			cout << "Максимум: " << x << endl;
 		}
-		else if (y > x && y > z)
+		else if (y >= x && y >= z)
 		{
 			cout << "Максимум: " << y << endl;
 		}
-		else if (z > x && z > y)
+		else if (z >= x && z >= y)
 		{
 			cout << "Максимум: " << z << endl;
 		}
