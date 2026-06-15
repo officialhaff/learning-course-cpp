@@ -371,3 +371,7 @@ ConsoleApplication1/ConsoleApplication1.exe
 InputData(homework)/InputData(homework).vcxproj
 InputData(homework)/InputData(homework).vcxproj.filters
 TaskNumber(homework)/TaskNumber(homework).exe
+.idea/ConsoleApplication1.iml
+/.idea
+InputData(homework)/InputData(homework).exe
+/.vscode
