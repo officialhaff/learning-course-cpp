@@ -375,3 +375,6 @@ TaskNumber(homework)/TaskNumber(homework).exe
 /.idea
 InputData(homework)/InputData(homework).exe
 /.vscode
+MoreTestingApplication/MoreTestingApplication.exe
+MoreTestingApplication/MoreTestingApplication.vcxproj
+MoreTestingApplication/MoreTestingApplication.vcxproj.filters
