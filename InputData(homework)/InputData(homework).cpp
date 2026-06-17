@@ -74,7 +74,7 @@ int main()
 		// Высчитываем среднее арифметическое и выводим в консоль:
 		// Храним значение average_number в типе данных double, так как при делении будем получать число с плавающей точкой
 
-		double average_number = ((double)x + (double)y + (double)z) / 3;
+		double average_number = (static_cast<double>(x) + static_cast<double>(y) + static_cast<double>(z)) / 3;
 
 		cout << "Среднее арифметическое от следующих чисел: " << x << "," << y << "," << z << endl;
 
@@ -322,13 +322,13 @@ int main()
 
 		double DiscountItem = 0.10;
 
-		int FinalPriceDiscount = (double)FinalPrice - ((double)FinalPrice * (double)DiscountItem);
+		double FinalPriceDiscount = static_cast<double>(FinalPrice) - (static_cast<double>(FinalPrice) * DiscountItem);
 
 		if (FinalPrice > 1000)
 		{
 			cout << "Итоговая стоимость товаров с учетом скидки: " << FinalPriceDiscount << endl;
 		}
-		else if (FinalPrice <= 1000)
+		else if (FinalPrice >= 0)
 		{
 			cout << "Итоговая стоимость товаров: " << FinalPrice << endl;
 		}
